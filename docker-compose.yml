@@ -24,7 +24,7 @@ services:
   web:
     build: nginx
     ports:
-      - "80:80"
+      - "80:81"
     depends_on:
       - fluentd
     logging:
